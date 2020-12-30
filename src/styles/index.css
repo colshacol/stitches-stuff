@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  --main-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --color-primary: #003865;
+  --color-secondary: #d78825;
+  --body-background: #f7f7f7;
+  --color-url: #3478f6;
+  --color-white: #ffffff;
+  --color-black: #171d2a;
+  --color-green: #1fa67a;
+  --color-green-vivid: #6bddab;
+  --color-red: #ff4445;
+  --color-red-vivid: #ec6c4b;
+  --color-yellow: #ffb400;
+  --color-lite-yellow: #fdf5e7;
+  --color-bhg-yellow: #d78825;
+  --color-orange: #d78825;
+  --color-blue: #1692cc;
+  --color-dark-blue: #003865;
+  --color-lite-grey: #b5bbc0;
+  --color-grey: #858f97;
+  --color-mid-grey: #4b596a;
+  --color-neutral-grey: #a8b0b7;
+  --color-bhg-grey: #a5a7a8;
+  --color-dark-grey: #232f3e;
+  --color-border-grey: #cacfd3;
+  --color-grayscale-200: #f9f9f9;
+}
+
+html {
+  font-family: var(--main-font);
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-black);
+  font-size: 1.6rem;
+  letter-spacing: 0.5;
+}
